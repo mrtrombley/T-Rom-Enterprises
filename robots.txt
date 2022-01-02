@@ -1,5 +1,3 @@
 User-agent: *
 
-Disallow: /docs/*
-
-Sitemap: https://www.matthewtrombley.com/sitemap.xml
+Sitemap: https://www.t-rom.com/sitemap.xml
