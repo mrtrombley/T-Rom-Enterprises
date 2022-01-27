@@ -222,14 +222,25 @@
                           </div>
                         </div>
                       </fieldset>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio11" name="hot-or-iced" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio11">Hot</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio12" name="hot-or-iced" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio12">Iced</label>
-                      </div>
+                      <fieldset class="form-group">
+                        <div class="row">
+                          <legend class="col-form-label col-sm-2 pt-0">Hot or Iced</legend>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-temp" id="hot-drink" value="Hot" checked>
+                              <label class="form-check-label" for="hot-drink">
+                                Hot
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-temp" id="iced-drink" value="Iced">
+                              <label class="form-check-label" for="iced-drink">
+                                Iced
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
                       <label>
                         Flavoring
                         <input type="email" name="_replyto" required>
