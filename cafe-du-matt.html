@@ -152,7 +152,7 @@
                       <div class="form-group row">
                         <label for="email" class="col-sm-4 col-form-label">Email</label>
                         <div class="col-sm-8">
-                          <input type="email" class="form-control" id="email" placeholder="Email" required>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                         </div>
                       </div>
                       <fieldset class="form-group">
@@ -294,11 +294,9 @@
                         </div>
                       </div>
                       <div class="form-group row">
-                        <div class="col-sm-4">Desired Pickup Date & Time</div>
+                        <label for="pickup-datetime" class="col-sm-4 col-form-label">Desired Pickup Date & Time</label>
                         <div class="col-sm-8">
-                          <div class="form-check">
-                            <input class="form-check-input" type="datetime-local" name="pickup-datetime" required>
-                          </div>
+                          <input type="datetime-local" class="form-control" name="pickup-datetime" required>
                         </div>
                       </div>
                       <div class="form-group row">
