@@ -155,46 +155,73 @@
                           <input type="email" class="form-control" id="email" placeholder="Email">
                         </div>
                       </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1">Latte</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">Cappucino</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3">Cortado</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio4" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio4">Espresso</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio5" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio5">Pour Over</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio6" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio6">French Press</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio7" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio7">Japanese Flash Brew (Iced Only)</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio8" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio8">Mocha</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio9" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio9">Americano</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio10" name="drink-choice" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio10">Hot Chocolate (Hot Only)</label>
-                      </div>
+                      <fieldset class="form-group">
+                        <div class="row">
+                          <legend class="col-form-label col-sm-2 pt-0">Drink Choice</legend>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="latte" value="Latte" checked>
+                              <label class="form-check-label" for="latte">
+                                Latte
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="cappucino" value="Cappucino">
+                              <label class="form-check-label" for="cappucino">
+                                Cappucino
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="cortado" value="Cortado">
+                              <label class="form-check-label" for="cortado">
+                                Cortado
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="espresso" value="Espresso">
+                              <label class="form-check-label" for="espresso">
+                                Espresso
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="pour-over" value="Pour Over">
+                              <label class="form-check-label" for="pour-over">
+                                Pour Over
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="french-press" value="French Press">
+                              <label class="form-check-label" for="french-press">
+                                French Press
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="japanese-flash-brew" value="Japanese Flash Brew">
+                              <label class="form-check-label" for="japanese-flash-brew">
+                                Japanese Flash Brew (Iced Only)
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="mocha" value="Mocha">
+                              <label class="form-check-label" for="mocha">
+                                Mocha
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="americano" value="Americano">
+                              <label class="form-check-label" for="americano">
+                                Americano
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="drink-choice" id="hot-chocolate" value="Hot Chocolate">
+                              <label class="form-check-label" for="hot-chocolate">
+                                Hot Chocolate
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
                       <div class="custom-control custom-radio">
                         <input type="radio" id="customRadio11" name="hot-or-iced" class="custom-control-input">
                         <label class="custom-control-label" for="customRadio11">Hot</label>
