@@ -149,9 +149,11 @@
                     <hr>
                     <p>Order using our form below. Don't forget to check our hours. One size only for beverages. Whole milk only.</p>
                     <form action="https://formspree.io/f/xzbodnqb" method="POST">
-                      <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" name="email" placeholder="Enter email" required>
+                      <div class="form-group row">
+                        <label for="email" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
                       </div>
                       <div class="custom-control custom-radio">
                         <input type="radio" id="customRadio1" name="drink-choice" class="custom-control-input">
@@ -193,10 +195,14 @@
                         <input type="radio" id="customRadio10" name="drink-choice" class="custom-control-input">
                         <label class="custom-control-label" for="customRadio10">Hot Chocolate (Hot Only)</label>
                       </div>
-                      <label>
-                        Hot or iced
-                        <input type="temp" name="email" required>
-                      </label>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio11" name="hot-or-iced" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio11">Hot</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio12" name="hot-or-iced" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio12">Iced</label>
+                      </div>
                       <label>
                         Flavoring
                         <input type="email" name="_replyto" required>
